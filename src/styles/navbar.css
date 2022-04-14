@@ -1,0 +1,53 @@
+.navbar{
+    height: 60px;
+}
+
+.navbar .fixed {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar nav .title {
+    display: block;
+    flex: 1 1;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 14px 20px;
+}
+
+.navbar nav .title a {
+   text-decoration: none;
+}
+
+.navbar nav .title strong {
+    color: #f85555;
+}
+
+.navbar nav .icon {
+    background: none;
+    border: none;
+    line-height: 0;
+    padding: 14px;
+    text-align: center;
+    width: 15%;
+    cursor: pointer;
+}
+
+.navbar nav .icon i {
+    color: #ababab;
+    font-size: 1.4rem;
+    transition: color .3s;
+}
+
+.navbar nav .icon i:hover {
+    color: #f85555;
+}

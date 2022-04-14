@@ -1,0 +1,35 @@
+footer * {
+    color: #fff;
+}
+
+footer {
+    background: #3c3c3b;
+    padding: 60px 0;
+}
+
+footer .copyright {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer .social-networks {
+    text-align: center;
+}
+
+footer .social-networks a {
+    background: #50504f;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 1.1rem;
+    height: 40px;
+    width: 40px;
+    line-height: 2.45;
+    margin: 0 10px;
+    text-decoration: none;
+   
+}
+
+
+
+

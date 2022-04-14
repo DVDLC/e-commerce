@@ -1,0 +1,22 @@
+.history {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.history a{
+    text-decoration: none;
+}
+
+.history .separator {
+    background: #f85555;
+    border-radius: 50%;
+    height: 6px;
+    margin: 0 14px;
+    width: 6px;
+}
+
+.history b {
+    font-weight: bold;
+    cursor: pointer;
+}

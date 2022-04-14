@@ -1,0 +1,127 @@
+.login-modal.open {
+    transform: scale(1);
+}
+
+.login-modal {
+    background: #fff;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    max-height: 90vh;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    transition: .5s ease-in-out;
+    width: 300px;
+    z-index: 9;
+}
+
+.login{
+    display: block;
+}
+
+.login-message {
+    color: #2fa8f8;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login .test-data {
+    background: #d8f5fd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.login .test-data strong {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.login .test-data .field {
+    margin-bottom: 6px;
+}
+
+.login .test-data .field i {
+    font-size: 1.5rem;
+    margin-right: 13px;
+}
+
+.login .input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    cursor: default;
+}
+
+.login .input-container input {
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    display: block;
+    margin-top: 4px;
+    padding: 6px 8px;
+    width: 100%;
+}
+
+.login .error-message {
+    color: #fe0000;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login .submit-button {
+    background: #f85555;
+    border: none;
+    color: #fff;
+    margin: 10px 0 25px;
+    padding: 9px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.switch-forms {
+    font-size: .9rem;
+}
+
+.switch-forms button, .user-info button {
+    background: transparent;
+    border: none;
+    color: #2fa8f8;
+    font-weight: 600;
+    font-size: inherit;
+    margin-left: 3px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    display: block;
+    height: 90px;
+    margin: 0 auto 20px;
+    width: 90px;
+}
+
+
+/* User Login Modal */
+
+.user-info {
+    text-align: center;
+}
+
+.user-info b {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.user-info button {
+    cursor: pointer;
+}
+
+@media (min-width: 568px){
+    .login-modal {
+        right: 20%;
+    }
+}

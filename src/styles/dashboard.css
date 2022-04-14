@@ -1,0 +1,78 @@
+.filters-modal.open {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.filters-modal {
+    background: #fff;
+    bottom: 0;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    overflow: auto;
+    padding: 10px 13px 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+    transition: all .7s ease;
+    width: 300px;
+    z-index: 99;
+}
+
+.filters-modal .close-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    font-size: 1.3rem;
+    margin: 0 0 15px auto;
+    cursor: pointer;
+}
+
+.filters-modal .close-btn i {
+    color: #000;
+}
+
+.filters-modal h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.filter-drop-down {
+    margin-bottom: 10px;
+    max-height: 300px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.filter-drop-down .header {
+    align-items: center;
+    border-bottom: 2px solid #dcd9d9;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: 40px;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.filter-drop-down .content{
+    padding: 20px 0;
+}
+
+.category-filter{
+    list-style: none;
+}
+
+.category-filter li{
+    margin: 0 0 10px 20px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.category-filter li:hover{
+    color: #f85555;
+}
+ 
